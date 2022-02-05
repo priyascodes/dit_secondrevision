@@ -8,7 +8,8 @@ public class SeleniumHelloWorld {
         System.setProperty("webdriver.chrome.driver","C:\\Selenium\\chromedriver_win32\\chromedriver.exe");
 
 
-        ChromeDriver driver = new ChromeDriver();
+
+       ChromeDriver driver = new ChromeDriver();
 
     }
 }

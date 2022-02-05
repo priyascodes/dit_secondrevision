@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameterisation">
+    <test verbose="2" preserve-order="true" name="C:/Users/reach/IdeaProjects/dit_secondrevision">
+        <parameter name="username" value="priya"></parameter>
+        <parameter name="password" value="123"></parameter>
+        <parameter name="city" value="london"></parameter>
+        <parameter name="dob" value="10aug1987"></parameter>
+
+
+        <classes>
+
+            <class name="uk.axone.testngadvanced.TestHowParameterizationWorks">
+
+            </class>
+
+        </classes>
+    </test>
+</suite>
